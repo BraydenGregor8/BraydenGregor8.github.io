@@ -1,5 +1,6 @@
 body {
-    background: rgb(98, 5, 105);
+    background-image: url("Images/Beauty-Cast.jpg");
+    background-size: 95%;
     color: rgb(251, 171, 0);
     padding: 10px;
     font-family: Arial, sans-serif;
@@ -77,7 +78,7 @@ h2, h3 {
 }
 /* Portfolio styles */
 .content h1 {
-  color: rgb(170, 140, 4);
+  color: rgb(205, 169, 12);
 }
 
 #portfolio {
@@ -86,7 +87,7 @@ h2, h3 {
 }
 
 #portfolio li {
-  background: #fff;
+  background:#b8a004;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
