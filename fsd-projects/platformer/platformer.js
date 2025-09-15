@@ -45,7 +45,7 @@ $(function () {
     createPlatform(955, 630, 70, 5, "black");
     createPlatform(600, 535, 130, 5, "black");
     createPlatform(340, 275, 40, 5, "black");
-    createPlatform()
+    
     // TODO 3 - Create Collectables
     createCollectable("bass", 90, 370);
     createCollectable("note", 1210, 540, 1, 1);
