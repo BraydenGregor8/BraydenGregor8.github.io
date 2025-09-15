@@ -30,27 +30,33 @@ $(function () {
     //toggleGrid();
 
     // TODO 2 - Create Platforms
-    createPlatform(195, 650, 10, 50, "black");
-    createPlatform(290, 550, 40, 3, "black");
-    createPlatform(440, 530, 50, 5, "black");
-    createPlatform(500, 400, 50, 10, "black");
-    createPlatform(570, 350, 5, 50, "black");
-    createPlatform(670, 260, 50, 5, "black");
-    createPlatform(850, 260, 60, 5, "black");
+    createPlatform(140, 650, 10, 50, "black");
+    createPlatform(290, 550, 40, 5, "black");
+    createPlatform(440, 535, 50, 5, "black");
+    createPlatform(500, 410, 50, 5, "black");
+    createPlatform(570, 395, 50, 3, "black");
+    createPlatform(570, 260, 90, 5, "black");
+    createPlatform(810, 260, 80, 5, "black");
     createPlatform(130, 400, 180, 3, "black");
     createPlatform(900, 400, 90, 5, "black");
-    createPlatform(220, 320, 90, 5, "black");
-    createPlatform(990, 350, 5, 50, "black");
+    createPlatform(220, 300, 90, 5, "black");
+    createPlatform(1210, 620, 50, 5, "black");
+    createPlatform(210, 550, 50, 5, "black");
+    createPlatform(955, 630, 70, 5, "black");
+    createPlatform(600, 535, 130, 5, "black");
+    createPlatform(340, 275, 40, 5, "black");
+    createPlatform()
     // TODO 3 - Create Collectables
     createCollectable("bass", 90, 370);
-    createCollectable("note", 940, 360);
+    createCollectable("note", 1210, 540, 1, 1);
     createCollectable("treble", 90, 270);
-    createCollectable("note", 940, 360);
+    createCollectable("note", 940, 320, 1, 1);
+    createCollectable("note", 950, 560, 1, 1);
     // TODO 4 - Create Cannons
     createCannon("top", 600, 4000);
     createCannon("right", 400, 6000);
     createCannon("top", 800, 5500);
-    createCannon("right", 600, 4500);
+    createCannon("right", 625, 4500);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
